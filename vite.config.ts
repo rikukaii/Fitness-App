@@ -4,7 +4,7 @@ import path from "path";
 import { VitePWA } from "vite-plugin-pwa";
 
 export default defineConfig({
-  base: "/your-repo-name/", // Set this to your GitHub repo name
+  base: "/Fitness-App/", // Set this to your GitHub repo name
   plugins: [
     react(),
     VitePWA({
@@ -16,12 +16,12 @@ export default defineConfig({
         theme_color: "#ffffff",
         icons: [
           {
-            src: "/icon-192x192.png",
+            src: "/Fitness-App/icon-192x192.png", // Adjusted for GitHub Pages
             sizes: "192x192",
             type: "image/png"
           },
           {
-            src: "/icon-512x512.png",
+            src: "/Fitness-App/icon-512x512.png", // Adjusted for GitHub Pages
             sizes: "512x512",
             type: "image/png"
           }
